@@ -8,17 +8,31 @@
     <title>Document</title>
   </head>
   <body>
+
+    <!-- it("within the <p>, it contains a <strong> tag", () => {
+        expect(document.querySelector('p').innerHTML).to.include('<strong>')
+      })
+      it("within the <p>, it contains an <em> tag", () => {
+        expect(document.querySelector('p').innerHTML).to.include('<em>')
+      })
+      it("within the <p>, it contains an <a> tag", () => {
+        expect(document.querySelector('p').innerHTML).to.include('<a href="https://developer.mozilla.org/en-US/docs/Web/HTML">')
+      })
+      it("within the <body>, it contains an <table> tag", () => {
+        expect(document.querySelector('body').innerHTML).to.include('table')
+      }) -->
       
       
       <h1>header one</h1>
       
       <p>this is paragraph</p>
       
-      <p><strong> strong </strong></p>
+      <p><strong></strong></p>
       
-      <p><em> this is paragraph </em></p>
+      <p><em></em><strong></strong><a href="https://developer.mozilla.org/en-US/docs/Web/HTML"> </p>
       
-      <p><a here="#"> anchor tag </a> element</p>
+      <!-- <p><a here="#"> anchor tag </a> element</p> -->
+      <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML"></a></p>
       
       <table>
           
@@ -53,7 +67,6 @@
     </html>
     <h1>header one</h1>
     <p>this is paragraph</p>
-         <p><a href=""></a></p>
     <p><strong> strong </strong></p>
     <p><em> this is paragraph </em></p>
     <p><a here="#"> anchor tag </a> element</p>
